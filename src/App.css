@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  background-color: blueviolet;
+}
+.App {
+  /* position: absolute; */
+  /* top: 20%; */
+  /* left: 35%;   */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  /* display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column; */
+  width: 320px;
+  height: auto;
+  background-color: white;
+  border-radius: 20px;
+}
+button {
+  border: none;
+  background-color: yellowgreen;
+  font-size: 30px;
+  width: 320px;
+  height: 50px;
+  padding: 5px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  cursor: pointer;
+}
+.card,
+h2 {
+  background-color: white;
+  width: 300px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  padding: 10px;
+  text-align: center;
+}
+.card {
+  /* z-index: 5;
+  position: relative;
+  height: 400px; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  animation-name: height;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-fill-mode: forwards;
+}
+.person {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.person input,
+.person label,
+.counter {
+  background-color: white;
+  padding: 5px;
+  font-size: 18px;
+  font-weight: bold;
+  text-align: left;
+  width: 100%;
+  border: none;
+}
+img,
+.person,
+.counter {
+  opacity: 0;
+}
+img,
+.person,
+.counter {
+  animation-name: opacity;
+  animation-duration: 2s;
+  animation-timing-function: ease-in-out;
+  animation-delay: 2s;
+  animation-fill-mode: forwards;
+}
+.person input {
+  padding-left: 22px;
+}
+.person input:focus {
+  outline: none;
+}
+.counter {
+  text-align: center;
+}
+.card img {
+  border-radius: 50%;
+  background-color: #dcdcdc;
+  padding: 10px;
+}
+
+@keyframes height {
+  from {
+    height: 0;
+  }
+  to {
+    height: 400px;
+  }
+}
+@keyframes opacity {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
