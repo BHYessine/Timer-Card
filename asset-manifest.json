@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/Timer-Card/static/css/main.8cd524ba.chunk.css",
+    "main.js": "/Timer-Card/static/js/main.c0964ac0.chunk.js",
+    "main.js.map": "/Timer-Card/static/js/main.c0964ac0.chunk.js.map",
+    "runtime-main.js": "/Timer-Card/static/js/runtime-main.e931fd66.js",
+    "runtime-main.js.map": "/Timer-Card/static/js/runtime-main.e931fd66.js.map",
+    "static/js/2.95e062b9.chunk.js": "/Timer-Card/static/js/2.95e062b9.chunk.js",
+    "static/js/2.95e062b9.chunk.js.map": "/Timer-Card/static/js/2.95e062b9.chunk.js.map",
+    "index.html": "/Timer-Card/index.html",
+    "static/css/main.8cd524ba.chunk.css.map": "/Timer-Card/static/css/main.8cd524ba.chunk.css.map",
+    "static/js/2.95e062b9.chunk.js.LICENSE.txt": "/Timer-Card/static/js/2.95e062b9.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e931fd66.js",
+    "static/js/2.95e062b9.chunk.js",
+    "static/css/main.8cd524ba.chunk.css",
+    "static/js/main.c0964ac0.chunk.js"
+  ]
+}
