@@ -1,6 +1,6 @@
 {
   "homepage": "http://BHYessine.github.io/Timer-Card",
-  "name": "checkpointstate",
+  "name": "timercard",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
